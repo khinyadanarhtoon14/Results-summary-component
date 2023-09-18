@@ -1,0 +1,2 @@
+$ sass sass/input.scss css/app.css --watch --style=compressed --no-source-map
+npm install --save @fortawesome/fontawesome-free

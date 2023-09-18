@@ -1,0 +1,137 @@
+
+  @import 'https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap';
+ @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+ @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+$danger: hsl(0, 100%, 67%);
+$warning: hsl(39, 100%, 56%);
+ $success: hsl(166, 100%, 37%);
+ $info: hsl(234, 85%, 45%);
+
+:root{
+
+  
+    /* gradients  */
+    --light_slate_blue: hsl(252, 100%, 67%);
+    --light_royal_blue: hsl(241, 81%, 54%);
+
+    --violet_blue: hsla(256, 72%, 46%, 1);
+    --persian_blue: hsla(241, 72%, 46%, 0);
+    /* neutral  */
+    --white: hsl(0, 0%, 100%);
+    --pale_blue: hsl(221, 100%, 96%);
+    --light_lavender: hsl(241, 100%, 89%);
+    --dark_gray_blue: hsl(224, 30%, 27%);
+}
+$font-family-sans-serif:'Hanken Grotesk', sans-serif;
+$font-family-base:'Hanken Grotesk', sans-serif;
+$font-family-code:'Hanken Grotesk', sans-serif;
+$font-family-monospace:'Hanken Grotesk', sans-serif;
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.number-result{
+  background:linear-gradient(to bottom,var(--light_slate_blue) 1%,var(--light_royal_blue) 99%);
+  max-width: 350px;
+  width:100%;
+  
+}
+
+.number-result h4{
+  font-size: 25px;
+  color:var(--white);
+}
+.number-result h3{
+  
+  font-size: 30px;
+  color:var(--white);
+}
+
+.number-result p{
+  
+  font-size: 18px;
+  color:var(--light_lavender);
+}
+
+.number-result-circle{
+  background:linear-gradient(180deg,var(--violet_blue) 30%,var(--persian_blue) 70%);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.number-result span:first-child{
+  font-weight: bold;
+  font-size: 50px;
+  color:var(--white);
+} 
+
+.number-result span:last-child{
+  font-size: 18px;
+  color:var(--light_lavender);
+  opacity: 0.5;
+}
+
+.summary{
+  background-color: var(--white);
+  max-width: 380px;
+  width: 100vh;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.summary h4{
+ 
+    font-size: 25px;
+    color:var(--dark_gray_blue);
+    font-weight: bolder;
+  
+}
+
+
+
+.list-group-item{
+
+ font-size: 18px;
+}
+
+
+
+
+
+
+.list-group-item i .memory{ 
+  font-family:'Hanken Grotesk', sans-serif ;
+}
+
+.list-group-item p span{
+  color: var(--dark_gray_blue);
+  opacity: 0.5;
+  
+}
+
+
+.list-group-item p {
+  color: var(--dark_gray_blue);
+  font-weight: bolder;
+
+}
+
+.list-group-item span strong{
+  font-weight: bold;
+  color:var(--dark_gray_blue)
+}
+
+.summary-btn{
+  background-color: var(--dark_gray_blue);
+  font-size: 18px;
+  color:var(--pale_blue)
+}
